@@ -1,0 +1,119 @@
+div img {
+  width: 220px;
+  height: 100px;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+.car1,
+.car2,
+.car3,
+.car4,
+.car5,
+.car6 {
+  position: absolute;
+  width: 220px;
+  height: 100px;
+}
+.car1 {
+  top: 0;
+  right: 0;
+  animation-name: car1;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+.car2 {
+  top: 110px;
+  right: 0;
+  animation-name: car2;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+.car3 {
+  top: 210px;
+  left: 0;
+  animation-name: car3;
+  animation-duration: 3s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+.car4 {
+  top: 310px;
+  right: 0;
+  animation-name: car4;
+  animation-duration: 3s;
+  animation-delay: 9s;
+  animation-fill-mode: forwards;
+}
+.car5 {
+  top: 410px;
+  left: 0;
+  animation-name: car5;
+  animation-duration: 3s;
+  animation-delay: 12s;
+  animation-fill-mode: forwards;
+}
+.car6 {
+  top: 510px;
+  right: 0;
+  animation-name: car6;
+  animation-duration: 3s;
+  animation-delay: 15s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes car1 {
+  from {
+    left: 0;
+  }
+  to {
+    left: 1120px;
+  }
+}
+@keyframes car2 {
+  from {
+    right: 0;
+  }
+
+  to {
+    right: 1120px;
+  }
+}
+@keyframes car3 {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 1120px;
+  }
+}
+@keyframes car4 {
+  from {
+    right: 0;
+  }
+
+  to {
+    right: 1120px;
+  }
+}
+@keyframes car5 {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 1120px;
+  }
+}
+@keyframes car6 {
+  from {
+    right: 0;
+  }
+
+  to {
+    right: 1120px;
+  }
+}
